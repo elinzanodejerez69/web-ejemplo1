@@ -4,42 +4,91 @@
   <Link rel="stylesheet" href="../CSS/estilo.css">
  </head>
  <body>
-  <h1> TEMA PRINCIPAL </h1>
-  <h2> subtema </h2>
-  <h3> investigacion </h3>
-  <p>HOLAA </p>
-  <img src="../IMAGENES/foto1.jfif" >
-  <img id="pepe" src="../IMAGENES/Foto3.jfif" >
+   <nav class="navbar">
+        <div class="menu-left">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu-right">
+            <a href="#" class="cta-button">Contact Us</a>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#" class="cta-button">Contact Us</a>
+    </div>
+
+    <script src="../JAVASCRIPT/script.js"></script>
+  <h1> NATANAEL CANO </h1>
+ <div style="text-align: center;">
+  <a href="pagina2.html">Mas informacion sobre Natanael</a>
+</div>
+   
+  <p>El mas duro de Mexico </p>
+ <img id="imgnata" src="../IMAGENES/nata.jpeg "/>
+ <h2> Natanael Cano es un cantante, compositor y rapero mexicano, reconocido como uno de los principales impulsores de los corridos tumbados, un subgénero que mezcla el corrido tradicional con trap, hip-hop y sonidos urbanos.
+Nació el 27 de marzo de 2001 en Hermosillo, Sonora. Desde muy joven mostró interés por la música y aprendió a tocar la guitarra de forma autodidacta, inspirado por los corridos clásicos, pero también por el rap y el trap que escuchaba en internet. Durante su adolescencia empezó a subir canciones a YouTube, donde llamó la atención por su estilo crudo, letras directas y una forma distinta de cantar corridos.
+Sus inicios fueron totalmente independientes: grababa desde casa y hablaba de su realidad, sus aspiraciones y la vida del barrio. El punto de quiebre llegó cuando su propuesta empezó a viralizarse y más tarde colaboró con artistas consolidados del regional mexicano, lo que lo llevó a un público mucho más amplio.
+Hoy, Natanael Cano es visto como una figura clave en la evolución del regional mexicano, especialmente entre las nuevas generaciones, por romper reglas y crear un sonido que conecta la tradición con lo urbano. </h2>
+  <img id="cete" src="../IMAGENES/cete.webp" >
   <br>
- <button id="tilin"> Dale clic </button>
+ <button id="tilin">Dale clic</button>
+
+<script>
+  document.getElementById("tilin").onclick = function() {
+    alert("EAAAAAAA");
+  };
+</script>
+  </br>
  <script src="..//JAVASCRIPT/script.js"></script>
+ <p> Los mejores proyectos de Nata </p>
  <table id="tabla1" border="1">
     <thead>
        <tr>
            <th>Nombre</td>
-           <th>Edad</td>
-           <th>Foto</th>
+           <th>Año de lanzamiento</th>
+           <th> Portada </th>
        <tr>
     </thead>
     <tbody>
     <tr>
-       <td>Tilin</td>
-       <td>67</td>
-       <td> <img src="../IMAGENES/foto1.jfif" >
+       <td>Por que la demora</td>
+       <td>2025</td>
+       <td> <img src="../IMAGENES/estrella.webp" >
        </tr>
       <tr> 
-       <td>Paul</td>
-       <td>11</td>
-       <td> <img id="pepe" src="../IMAGENES/Foto3.jfif" >
+       <td>Natakong</td>
+       <td>2024</td>
+       <td> <img id="nataaaa" src="../IMAGENES/nataaaa.jpg" >
       </tr>
     <tr>
-     <td>Emiliano</td>
-       <td>67</td>
+     <td>A mis 20</td>
+       <td>2019</td>
+     <td> <img id="20" src="../IMAGENES/20.webp" >
     </tr>
-
-      </tr>
    </table>
-   <br>
+   <p> LOS CT </p>
+                    <ul>
+                       ¿Qué son los CT?
+                    </ul>
+ <li> Los CT, abreviatura de Corridos Tumbados, son un subgénero musical del regional mexicano que combina el corrido tradicional con sonidos modernos como el trap, el rap y la música urbana. Este estilo se caracteriza por mantener la estructura narrativa del corrido —historias sobre la vida personal, el éxito, el barrio o experiencias difíciles— pero con una interpretación más relajada, juvenil y con beats influenciados por el hip-hop. </li>
+   
+  <img id="cete" src="../IMAGENES/ct.webp" >
+ <li> El movimiento fue impulsado principalmente por Natanael Cano, quien ayudó a popularizar el término “CT” entre sus seguidores. Gracias a esta fusión de géneros, los corridos tumbados conectaron con nuevas generaciones, convirtiéndose en una tendencia importante dentro de la música mexicana actual. </li>
+ 
+  <p> Numeros a los que ha llegado nata al paso de los años </p>
     <table border="1">
         <thead> 
              <tr> 
