@@ -42,9 +42,17 @@ button{
     border-radius: 2px;
     transition: all 0.3s ease;
 }
+#natitaa {
+ width: 200px;
+ heigth: 200px;
+}
 #nataaaa {
-  width: 200px;
-  heigth: 250px;
+  width: 250px;
+  heigth: 100px;
+}
+#imgnata {
+ width: 250px;
+ heigth: 100px;
 }
 #20 {
     width: 100px;
@@ -177,13 +185,21 @@ a:hover {
     color: #ddd;
 }
 
-.navbar a:not(.cta-button) {
-    padding: 10px 15px;
-    margin: 0 5px;
-    transition: background-color 0.3s ease;
-}
+<nav class="navbar">
 
-.navbar a:not(.cta-button):hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-}
+    <div class="menu-left">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+    </div>
+
+    <div class="zete">
+        <img src="../IMAGENES/zete.png" alt="Logo">
+    </div>
+
+    <div class="menu-right">
+        <button class="cta-button">Contact Us</button>
+        <span class="hamburger" onclick="openMenu()">☰</span>
+    </div>
+
+</nav>
